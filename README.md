@@ -35,10 +35,12 @@ When a new user enter this application,
 
 /src/app/models/
 --> models
+
 1.InitBoardInfo { 
     currentPlayer: string; 
     boardSize: number;
  }
+ 
 2.SquareInfo {
     r: number;
     g: number;
