@@ -1,0 +1,10 @@
+#Sidebar {
+   float:left;
+   text-align:left;
+   font-size:15px;
+   font-weight:bold;
+}
+
+#body{
+   float:left;
+}

@@ -1,0 +1,32 @@
+<p [style.color]="rgbColor" >Game Of Life {{currentPlayer}}</p>
+
+<div id='body'>
+
+  <ng-container *ngFor="let xx of boardSizeList;let x = index;">
+    <div  style='line-height: 1px;'>
+      <ng-container *ngFor="let yy of boardSizeList;let y = index;">
+        <square [locationX]="x" [locationY]="y" [rgbColor] = "'rgb(255,255,255)'" (onSquareClick)="handleSquareClick($event)"></square>
+      </ng-container>
+    </div>
+  </ng-container>
+</div>
+
+<div id='Sidebar'>
+<button class="button" (click)="restart()">Restart</button>
+<ng-container *ngFor="let pattern of patterns">
+  <div>
+    <input type="radio" id="pattern" name="drone" value="{{pattern}}" [(ngModel)]="clickPattern">
+    <label for="pattern">{{pattern}}</label>
+  </div>
+</ng-container>
+</div>
+
+
+
+
+
+
+
+
+
+
