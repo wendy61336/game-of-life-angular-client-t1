@@ -3,7 +3,7 @@ import { InitBoardInfo } from '../models/initboardinfo';
 import { SquareInfo } from '../models/squareinfo';
 
 
-const SERVER_URL = 'ws://localhost:40510';
+const SERVER_URL = 'ws://calm-depths-57678.herokuapp.com';
 
 @Injectable()
 export class GameService {
