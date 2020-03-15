@@ -33,7 +33,7 @@ When a new user enter this application,
 /src/app/service/gameservice.ts  
 --> interact with server by websocket
 
-game-of-life-angular-client-t1/src/app/models/
+/src/app/models/
 --> models
 1.InitBoardInfo { 
     currentPlayer: string; 
