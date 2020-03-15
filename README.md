@@ -25,29 +25,24 @@ When a new user enter this application,
 
 ## Coding files
 
-/src/app/components/board/board.component.ts 
- --> contains must of the logic operations 
+/src/app/components/board/board.component.ts --> contains must of the logic operations 
  1. receive from server, init & draw 
  2. send to server,  init & click & restart
  
-/src/app/service/gameservice.ts  
---> interact with server by websocket
+/src/app/service/gameservice.ts  --> interact with server by websocket
 
-/src/app/models/
---> models
-
-1.InitBoardInfo { 
-    currentPlayer: string; 
-    boardSize: number;
- }
- 
-2.SquareInfo {
-    r: number;
-    g: number;
-    b: number;
-    locationX: number;
-    locationY: number;
- }
+/src/app/models/  --> models
+  1.InitBoardInfo { 
+      currentPlayer: string; 
+      boardSize: number;
+   }
+  2.SquareInfo {
+      r: number;
+      g: number;
+      b: number;
+      locationX: number;
+      locationY: number;
+   }
 
 
 
